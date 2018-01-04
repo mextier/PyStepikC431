@@ -16,4 +16,4 @@ def genseq(data):
 
 
 for seq in genseq(instr):
-    print(decodeseq(seq))
+    print(decodeseq(seq),end='')
