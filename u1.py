@@ -1,3 +1,8 @@
+import string
+print(string.ascii_letters+string.digits+string.punctuation)
+
+
+
 while True:
     c = int(input('Введите число:'))
     if c == 777:
@@ -8,9 +13,3 @@ while True:
         print(c)
         c=c-1
     print('Закончен цикл!')
-
-
-
-
-
-if 
